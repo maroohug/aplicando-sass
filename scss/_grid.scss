@@ -1,0 +1,77 @@
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "logo logo logo logo logo"
+    "menu menu menu menu menu"
+    "sectionA sectionA sectionA sectionA sectionC"
+    "sectionB sectionB sectionB sectionB aside"
+    "footer footer footer footer footer"
+    ;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.sectionA {
+    grid-area: sectionA;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/soccer-background-in-blue-colors-vector-id1135383989?b=1&k=6&m=1135383989&s=170667a&w=0&h=inlnxhDAsxFRPhojhL__itAjuUxVmy09ibLtxNY1ch4=");
+    color: rgb(255, 255, 255);
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 1%;
+}
+
+
+.sectionB {
+    grid-area: sectionB;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/soccer-background-in-blue-colors-vector-id1135383989?b=1&k=6&m=1135383989&s=170667a&w=0&h=inlnxhDAsxFRPhojhL__itAjuUxVmy09ibLtxNY1ch4=");
+    color: rgb(255, 255, 255);
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 1%;
+}
+.posiciones{
+    width: 75%;
+}
+.festejoDeGol{
+    width: 75%;
+}
+.fotoDelEquipo{
+    width: 75%;
+}
+.sectionC {
+    grid-area: sectionC;
+    text-align: center;
+}
+.sectionC ul li{
+    list-style: none;
+}
+.sectionC ul li img{
+    width: 80%;
+}
+.sectionB ul{
+    list-style: none;
+}
+aside {
+    grid-area: aside;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to left, #3d60b1, #182848);
+    color: $color-primario;
+    font-family: 'Montserrat', sans-serif;
+}
+.fotosDelCuerpo{
+    width: 45%;
+    filter: grayscale(75%);
+}
+.tituloSectionA{
+    text-align: center;
+    width: 100%;
+}

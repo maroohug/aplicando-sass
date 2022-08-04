@@ -1,0 +1,39 @@
+@media (max-width:768px){
+    h1 {
+        font-size: 20px;
+
+    }
+    .renglonDos{
+        position: relative;
+        bottom: -15px;
+        right: 30px;
+        }
+    .contenedor {
+        display: grid;
+        grid-template-areas: 
+        "logo logo"
+        "menu menu"
+        "sectionA sectionA"
+        "sectionB sectionB"
+        "footer footer"
+        ;
+    }
+   aside{
+    display: none;
+   }
+   .sectionC{
+    display: none;
+   }
+   
+}
+@media (max-width:520px){
+    h1{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+    .escudoBc{
+        left: 0px;
+    }
+}
