@@ -1,0 +1,14 @@
+$mapRedes:(facebook:blue, twitter:lightblue, instagram:violet);
+
+@each $red, $color in $mapRedes {
+    .#{$red}{
+        color: $color;
+    }
+}
+
+$estilo:(color:blue, tamFuente:20px);
+
+.pepeLePu {
+  background-color: map-get($map: $estilo , $key:color );
+  font-size: map-get($map: $estilo, $key: tamFuente);
+}

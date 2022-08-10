@@ -172,3 +172,28 @@ nav {
   display: block;
   text-transform: uppercase;
   color: #034480; }
+
+.facebook {
+  color: blue; }
+
+.twitter {
+  color: lightblue; }
+
+.instagram {
+  color: violet; }
+
+.pepeLePu {
+  background-color: blue;
+  font-size: 20px; }
+
+.parrafosConEstilo {
+  font-size: 2rem;
+  text-align: center; }
+
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left; }
+
+.segundoEstilo {
+  font-size: 35px; }
