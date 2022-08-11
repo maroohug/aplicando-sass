@@ -8,7 +8,7 @@ $mapRedes:(facebook:blue, twitter:lightblue, instagram:violet);
 
 $estilo:(color:blue, tamFuente:20px);
 
-.pepeLePu {
+.agregandoMaps {
   background-color: map-get($map: $estilo , $key:color );
   font-size: map-get($map: $estilo, $key: tamFuente);
 }
